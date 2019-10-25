@@ -76,19 +76,41 @@
           <div class="container">
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src=<?php echo $biodata ['foto']?> alt="">
+            <img class="img-fluid mb-3 mb-lg-0" style="width:70%;" src=<?php echo $biodata ['foto']?> alt="">
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <h4 class="text-white-50 mb-0">Data Diri</h4>
-              <ul class="text-white-50 mb-0">
-                <li>Nama                 : <?php echo $biodata ['nama']?></li>
-                <li>Jenis Kelamin        : <?php echo $biodata ['jk']?></li>
-                <li>Tempat Tanggal Lahir : <?php echo $biodata ['ttl']?></li>
-                <li>Agama                : <?php echo $biodata ['agama']?></li>
-                <li>Alamat               : <?php echo $biodata ['alamat']?></li>
-                <li>Email                : <?php echo $biodata ['email']?></li>
-                <li>No HP                : <?php echo $biodata ['wa']?></li></ul>
+              <table>
+              <tr class="text-white-50 mb-0">
+                <td class="depan" style="width:500px;">Nama </td>
+                <td style="width:500px;">: <?php echo $biodata ['nama']?></td>
+              </tr>
+              <tr class="text-white-50 mb-0">
+                <td class="depan">Jenis Kelamin </td>
+                <td>: <?php echo $biodata ['jk']?></td>
+              </tr>
+              <tr class="text-white-50 mb-0">
+                <td class="depan">Tempat Tanggal Lahir </td>
+                <td>: <?php echo $biodata ['ttl']?></td>
+              </tr>
+              <tr class="text-white-50 mb-0">
+                <td class="depan">Agama </td>
+                <td>: <?php echo $biodata ['agama']?></td>
+              </tr>
+              <tr class="text-white-50 mb-0">
+                <td class="depan">Alamat </td>
+                <td>: <?php echo $biodata ['alamat']?></td>
+              </tr>
+              <tr class="text-white-50 mb-0">
+                <td class="depan">Email </td>
+                <td>: <?php echo $biodata ['email']?></td>
+              </tr>
+              <tr class="text-white-50 mb-0">
+                <td class="depan">No HP </td>
+                <td>: <?php echo $biodata ['wa']?></td>
+              </tr>
+              </table>
               </div>
           </div>
         </div>

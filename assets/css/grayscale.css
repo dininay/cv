@@ -232,6 +232,15 @@
   padding: 5rem 0 0;
 }
 
+.depan{
+  position: relative;
+  width:500px;
+}
+
+.depan::after{
+  position: absolute;
+  content: ":";
+}
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
